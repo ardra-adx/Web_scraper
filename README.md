@@ -43,7 +43,7 @@ render template-> render html templates in this dashboard.html
 @app.route-> maps the url path to the home()function
 
 
-![Screenshot from 2025-04-08 13-11-19](https://github.com/user-attachments/assets/140616b8-4551-4d10-ac5a-f4d6e829d028)
+![Screenshot from 2025-05-28 20-54-01](https://github.com/user-attachments/assets/39a76e47-72a3-423e-9a3d-97d9e9c05204)
 
 
 
