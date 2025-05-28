@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Dashboard</title>
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { padding: 10px; border: 1px solid #ddd; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h2>Job Postings</h2>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Company</th>
+            <th>Location</th>
+        </tr>
+        {% for job in jobs %}
+        <tr>
+            <td>{{ job.title }}</td>
+            <td>{{ job.company }}</td>
+            <td>{{ job.location }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
