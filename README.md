@@ -21,3 +21,30 @@ beautifulSoup
  #URL setup
  request headers - user agent is set to stimulate a real browser
  
+#parse the html with beautifulSoup
+response text-contains the raw html code of the web page
+beautiful Soup- parse the html and allows to navigate &search through it easily
+
+#loop through each job entry on the page
+all <tr> [table row] elements that have the class job
+each <tr> represents job listing in the page 
+
+#extract the job details
+title 
+company
+location 
+
+#save valid job entites 
+strip() to remove whitespace 
+check whether title & company exists
+
+render template-> render html templates in this dashboard.html
+
+@app.route-> maps the url path to the home()function
+
+
+
+
+
+
+
